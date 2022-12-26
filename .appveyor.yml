@@ -7,8 +7,7 @@ branches:
     - main  # ветка git
 
 cache: 
-  - node_modules  # кеширование
-  - "%LOCALAPPDATA%\\Yarn"
+  - yarn
 
 install:
   - yarn  # команда установки зависимостей
