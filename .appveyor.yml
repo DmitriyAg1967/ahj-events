@@ -7,7 +7,7 @@ branches:
     - main  # ветка git
 
 cache: 
-  - yarn
+  - yarn/cache
 
 install:
   - yarn  # команда установки зависимостей
